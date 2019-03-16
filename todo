@@ -1,0 +1,11 @@
+Prophet - v2
+
+
+1. The effect of the external parameter is currently independent of the magnitude of y. Can we factor it in?
+
+2. The co-efficient of the external parameter is currently assumed to be constant over the entire time period. 
+   Similar to growth trend model, I’d like to define breakpoints where the coefficients can  change.
+
+3. How to ensure that even if we large number of possible of breakpoints, only few are used. (sparse prior)
+
+4. Generalized linear models
